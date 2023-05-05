@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/website1/web.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online food delivery service_myonlinemeal</title>
+    
+<link rel="stylesheet" href="./Online food delivery service_myonlinemeal_files/style.css"></head>
+<body>
+    
+        <div id="logo">
+        <img src="./Online food delivery service_myonlinemeal_files/logo-removebg-preview.png" alt="GETFOOD.COM">
+
+        </div>
+        <nav id="navbar">
+        <ul>
+            <li class="item"><a href="http://127.0.0.1:5500/website1/web.html#">Home</a></li>
+            <li class="item"><a href="http://127.0.0.1:5500/website1/web.html#">Services</a></li>
+            <li class="item"><a href="http://127.0.0.1:5500/website1/web.html#">About Us</a></li>
+            <li class="item"><a href="http://127.0.0.1:5500/website1/web.html#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+            <section id="home">
+                <h1 class="h1-primary">Welcome to GetFood</h1>
+                <p>If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.</p>
+                <p>Order now and get good food at your place </p>
+                <button class="btn">Order Now</button>
+            </section>
+
+            <section class="services-container">
+                <h1 class="h1-primary center" style="
+    font-size: 2.8rem;
+">Our services </h1>
+                <div id="services">
+                    <div class="box">
+                        <img src="./Online food delivery service_myonlinemeal_files/1-removebg-preview.png" alt="">
+                        <h2 class="h2-secondry center"> Food ordering</h2>
+                        <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, nihil eius iure nostrum, nesciunt rerum minima laboriosam aliquid illo cumque eos, doloribus accusamus molestiae repellat alias voluptatum expedita sapiente iusto. Dolore voluptate at ea!</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="./Online food delivery service_myonlinemeal_files/2-removebg-preview.png" alt="">
+                        <h2 class="h2-secondry center">Hygenic Food </h2>
+                        <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, nihil eius iure nostrum, nesciunt rerum minima laboriosam aliquid illo cumque eos, doloribus accusamus molestiae repellat alias voluptatum expedita sapiente iusto. Dolore voluptate at ea!</p>
+                    </div>
+
+                    <div class="box">
+                        <img src="./Online food delivery service_myonlinemeal_files/3-removebg-preview.png" alt="">
+                        <h2 class="h2-secondry center"> Fast delivery</h2>
+                        <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, nihil eius iure nostrum, nesciunt rerum minima laboriosam aliquid illo cumque eos, doloribus accusamus molestiae repellat alias voluptatum expedita sapiente iusto. Dolore voluptate at ea!</p>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section id="client-section">
+            <h1 class="h1-primary center">Our Clients</h1>
+            <div class="client-item">
+                <img src="http://127.0.0.1:5500/website1/web.html" alt="">
+            </div>
+
+            </section>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
